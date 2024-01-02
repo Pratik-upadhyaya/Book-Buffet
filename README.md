@@ -1,0 +1,2 @@
+## Book Buffet
+Book Buffet is a free web application available online. This online application is for folks who wish to read a book but can't find the correct one. Users can explore books from various genres, authors, and time periods, expanding their reading horizons. An online book discovery service makes it simple to find a vast variety of literature, making books more accessible to individuals all over the world.
