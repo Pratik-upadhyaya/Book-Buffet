@@ -1,0 +1,73 @@
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-info-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    width: 100%;
+    max-width: 600px; 
+}
+
+.image-container img {
+    border-radius: 10px; 
+    border: 4px solid #ffffff; 
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+

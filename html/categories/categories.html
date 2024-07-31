@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Category Section</title>
+<link rel="stylesheet" href="categories.css">
+</head>
+
+<body>
+    <!--<iframe src="navigation.html" style="width:100%; border:none;"></iframe>-->
+    <nav class="navbar">
+        <ul>
+            <li><a href="../first page/visit.html">Home</a></li>
+            <li><a href="categories.html">Category</a></li>
+            <li><a href="../about/aboutus.html">About Us</a></li>
+            <li><a href="../login/login.html">Login</a></li>
+            <li><a href="../signup/signup.html">Signup</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <div class="categories">
+        <div class="category" onclick="showImages('romantic')">
+            <h2>Romantic</h2>
+            <p>Explore romantic Book</p>
+        </div>
+        <div class="category" onclick="showImages('comedy')">
+            <h2>Comedy</h2>
+            <p>Discover hilarious Book</p>
+        </div>
+        <div class="category" onclick="showImages('adventure')">
+            <h2>Adventure</h2>
+            <p>Experience thrilling adventure Book</p>
+        </div>
+        <div class="category" onclick="showImages('thrillers')">
+            <h2>Thrillers</h2>
+            <p>Watch thrilling Book</p>
+        </div>
+    </div>
+
+    <!-- Image container for Romantic -->
+    <div class="image-container" id="romantic-images">
+        <a href="../categories/types/romance/romantic.html">
+            <img src="../categories/types/romance/romance.jpeg" alt="Romance book Image ">
+        </a>
+    </div>
+
+    <!-- Image container for Comedy -->
+    <div class="image-container" id="comedy-images">
+        <a href="../categories/types/comedy/comedy.html">
+            <img src="../categories/types/comedy/comedy.jpg" alt="Comedy Image 1">
+        </a>
+    </div>
+
+    <!-- Image container for Adventure -->
+    <div class="image-container" id="adventure-images">
+        <a href="../categories/types/adventure/adventure.html">
+            <img src="../categories/types/adventure/adventure.jpg" alt="Adventure Image 1">
+        </a>
+    </div>
+
+    <!-- Image container for Thrillers -->
+    <div class="image-container" id="thrillers-images">
+        <a href="../categories/types/thrillers/thrillers.html">
+            <img src="../categories/types/thrillers/thrillers.jpg" alt="Thrillers Image 1">
+        </a>
+    </div>
+</div>
+
+<!-- Your additional content goes here -->
+<!-- <div class="additional-content">
+    <p>This is additional content between "Return to Home" and the end of the body, Sonia you have to add anything needed here, be a good girl and do the works.</p>
+</div> -->
+
+<a href="visit.html" class="return-to-home">Return to Home</a>
+
+<script>
+    function showImages(category) {
+        var romanticImages = document.getElementById('romantic-images');
+        var comedyImages = document.getElementById('comedy-images');
+        var adventureImages = document.getElementById('adventure-images');
+        var thrillersImages = document.getElementById('thrillers-images');
+
+        // Hide all image containers
+        romanticImages.style.display = 'none';
+        comedyImages.style.display = 'none';
+        adventureImages.style.display = 'none';
+        thrillersImages.style.display = 'none';
+
+        // Show the image container based on the selected category
+        if (category === 'romantic') {
+            romanticImages.style.display = 'flex';
+        } else if (category === 'comedy') {
+            comedyImages.style.display = 'flex';
+        } else if (category === 'adventure') {
+            adventureImages.style.display = 'flex';
+        } else if (category === 'thrillers') {
+            thrillersImages.style.display = 'flex';
+        }
+    }
+</script>
+<footer>
+    <div class="container">
+        <p style="font-size: small; align-content: center;">&copy; 2024 Book Buffet. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

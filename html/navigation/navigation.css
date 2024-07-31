@@ -1,0 +1,37 @@
+
+.navbar {
+    background-color: #333;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.navbar .left-links,
+.navbar .right-links {
+    display: flex;
+}
+
+.navbar .left-links ul,
+.navbar .right-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #f4d03f; /* Light yellowish golden color */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold; /* Make it more bold */
+    font-size: 18px; /* Make it bigger */
+    margin-right: 20px;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}

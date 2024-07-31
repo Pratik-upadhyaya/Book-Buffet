@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+}
+
+.book-info-container {
+    background-color: #3131ac;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; /* Add margin to separate book info from image */
+    width: 100%;
+    max-width: 600px; /* Limit the width of the container */
+}
+
+.image-container {
+    text-align: center; /* Center the image */
+}
+
+.image-container img {
+    border-radius: 10px; /* Rounded corners for the image */
+    border: 4px solid #ffffff; /* White border */
+}
+
+.return-to-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.return-to-home:hover {
+    color: #000;
+}
